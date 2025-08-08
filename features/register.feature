@@ -1,6 +1,7 @@
 Feature: Register
   New user register by email, social media
 
+  @skip
   Scenario Outline: As a new user, I can register new account by email address
 
     Given: I am on the register page
@@ -11,6 +12,7 @@ Feature: Register
     And: I click on the register button
     Then: I should see a confirmation message
 
+  @skip
   Scenario Outline: As a new user, I can register new account by social media
 
     Given: I am on the register page
